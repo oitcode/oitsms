@@ -18,7 +18,8 @@
 
   <div class="form-group">
     <label for="">Message</label>
-    <input type="text" class="form-control" wire:model.defer="message">
+    <textarea class="form-control" wire:model.defer="message">
+    </textarea>
     @error('message') <span class="text-danger">{{ $message }}</span> @enderror
   </div>
 
