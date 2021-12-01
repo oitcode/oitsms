@@ -7,5 +7,9 @@
 @stop
 
 @section('content')
+  @if (false)
   @livewire ('sms-send')
+  @endif
+
+  @livewire ('named-sms')
 @stop
